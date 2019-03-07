@@ -1,6 +1,6 @@
 # Add  code here!
 def prime? (n)
-  is_prime = nil
+  is_prime = ""
   if n <= 3
     is_prime = true
   elsif n % 2 == 0 || n % 3 == 0
