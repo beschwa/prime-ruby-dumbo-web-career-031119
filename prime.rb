@@ -4,7 +4,7 @@ def prime? (n)
   if n <= 3
     is_prime = true
   else
-    (0..(n/2)).each do |i|
+    (4..(n/2)).each do |i|
       if n%i == 0
         is_prime = false
       end
